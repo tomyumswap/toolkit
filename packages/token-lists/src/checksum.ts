@@ -10,7 +10,7 @@ const lists = {
   "pancakeswap-default": pancakeswapDefault,
   "pancakeswap-extended": pancakeswapExtended,
   "pancakeswap-top-100": pancakeswapTop100,
-  "pancakeswap-top-15": pancakeswapTop15
+  "pancakeswap-top-15": pancakeswapTop15,
 };
 
 const checksumAddresses = (listName: string): void => {
