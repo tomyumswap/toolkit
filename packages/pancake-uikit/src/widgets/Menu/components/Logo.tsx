@@ -48,7 +48,7 @@ const Logo: React.FC<Props> = ({ isDark, href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <img src="https://tomyumswap.com/assets/images/tomyumswap.svg" height="20" className="desktop-icon" />
+      <img src="https://tomyumswap.com/assets/images/tomyumswap.svg" height="30" className="desktop-icon" />
     </>
   );
 
