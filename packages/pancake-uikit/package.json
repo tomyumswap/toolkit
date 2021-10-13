@@ -1,14 +1,14 @@
 {
-  "name": "@pancakeswap/uikit",
-  "version": "0.55.1",
-  "description": "Set of UI components for pancake projects",
+  "name": "@tomyumswap/ui-kit",
+  "version": "0.55.2",
+  "description": "Set of UI components for tomyumswap projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit",
+  "repository": "https://github.com/tomyumswap/toolkit/tree/master/packages/pancake-uikit",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",

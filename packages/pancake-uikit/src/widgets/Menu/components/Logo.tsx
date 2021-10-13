@@ -48,9 +48,7 @@ const Logo: React.FC<Props> = ({ isDark, href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      // <LogoIcon className="mobile-icon" />
-      // <LogoWithTextIcon className="desktop-icon" isDark={isDark} />
-      <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" />
+      <img src="https://tomyumswap.com/assets/images/tomyumswap.svg" height="20" className="desktop-icon" />
     </>
   );
 
