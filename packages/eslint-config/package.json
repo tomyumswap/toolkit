@@ -1,14 +1,14 @@
 {
   "name": "@tomyumswap/eslint-config",
   "version": "1.2.0",
-  "description": "Eslint config for PancakeSwap",
+  "description": "Eslint config for TomTumSwap",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
   "repository": "https://github.com/tomyumswap/tomyumswap-toolkit/tree/master/packages/eslint-config",
   "license": "MIT",
-  "author": "RabbitDoge",
+  "author": "tomyumswap",
   "private": false,
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.7.0",
