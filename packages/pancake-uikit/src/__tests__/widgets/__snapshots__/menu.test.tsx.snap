@@ -636,7 +636,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c68 {
-  border-color: #383241;
+  border-color: #27262c;
   border-top-width: 1px;
   border-bottom-width: 1px;
   border-style: solid;
@@ -645,7 +645,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c61 {
-  border-bottom: 1px solid #383241;
+  border-bottom: 1px solid #27262c;
 }
 
 .c73 {
