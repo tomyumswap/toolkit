@@ -221,7 +221,7 @@ Also `bunnyPlaceholder` image is exported to provide fallback for e.g. unregiste
 
 ## Roadmap
 
-Current version of this SDK is 90% copy of existing from [pancake-frontend](https://github.com/pancakeswap/pancake-frontend) repo. There are several improvements to be made in the future versions of this SDK:
+Current version of this SDK is 90% copy of existing from [pancake-frontend](https://github.com/tomyumswap/pancake-frontend) repo. There are several improvements to be made in the future versions of this SDK:
 
 - [ ] Better error handling (common bad status codes or broken internet connection)
 - [ ] Allow username & avatar cookie to be configurable or optional

@@ -31,7 +31,7 @@ class PancakeProfileSdk {
   /**
    * Fetches user information via REST API
    * Contains user information and leaderboard statistics about latest trading competition.
-   * API repo - https://github.com/pancakeswap/pancake-profile-api
+   * API repo - https://github.com/tomyumswap/pancake-profile-api
    */
   getUsername = async (address: string): Promise<string> => {
     try {
@@ -92,7 +92,7 @@ class PancakeProfileSdk {
    * Fetches team information from
    * Contains team name, number of users, total number of points for the team and whether the team is joinable.
    * This data is combined with static team data (images, description, etc) that is stored in constant in this repo.
-   * Contract repo - https://github.com/pancakeswap/pancake-contracts/tree/master/projects/profile-nft-gamification
+   * Contract repo - https://github.com/tomyumswap/pancake-contracts/tree/master/projects/profile-nft-gamification
    */
   getTeam = async (teamId: number): Promise<Team> => {
     try {
@@ -122,7 +122,7 @@ class PancakeProfileSdk {
    * This function combines data from getUsername and getTeam with profile data received getUserProfile method
    * from PancakeProfile contract.
    * NFT's bunnyId is retrieved from PancakeBunnies contract and mapped to static NFT data stored in constant.
-   * Contracts repo - https://github.com/pancakeswap/pancake-contracts/tree/master/projects/profile-nft-gamification
+   * Contracts repo - https://github.com/tomyumswap/pancake-contracts/tree/master/projects/profile-nft-gamification
    */
   getProfile = async (address: string): Promise<GetProfileResponse> => {
     try {
