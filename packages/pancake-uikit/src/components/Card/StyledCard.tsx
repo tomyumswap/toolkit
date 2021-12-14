@@ -51,9 +51,7 @@ export const StyledCard = styled.div<StyledCardProps>`
   backdrop-filter: blur(12px);
 `;
 
-export const StyledCardInner = styled(Box)<{ background?: string; hasCustomBorder: boolean }>`
-  
-`;
+export const StyledCardInner = styled(Box)<{ background?: string; hasCustomBorder: boolean }>``;
 
 StyledCard.defaultProps = {
   isActive: false,
