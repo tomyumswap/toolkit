@@ -40,33 +40,18 @@ const getBorderColor = ({ isActive, isSuccess, isWarning, borderBackground, them
 
   return theme.colors.cardBorder;
 };
-
+// background: linear-gradient(111.98deg, rgba(255, 255, 255, 0.05) 5%, rgba(0, 0, 0, 0.03) 100%);
 export const StyledCard = styled.div<StyledCardProps>`
-  background: ${getBorderColor};
-  border-radius: ${({ theme }) => theme.radii.card};
+  background: #72727233 0% 0% no-repeat padding-box;
   color: ${({ theme, isDisabled }) => theme.colors[isDisabled ? "textDisabled" : "text"]};
-  overflow: hidden;
   position: relative;
-
-  ${({ isActive }) =>
-    isActive &&
-    css`
-      animation: ${PromotedGradient} 3s ease infinite;
-      background-size: 400% 400%;
-    `}
-
-  padding: 1px 1px 3px 1px;
-
-  ${space}
+  border: 1px solid #484747;
+  border-radius: 30px;
+  opacity: 1;
+  backdrop-filter: blur(12px);
 `;
 
-export const StyledCardInner = styled(Box)<{ background?: string; hasCustomBorder: boolean }>`
-  width: 100%;
-  height: 100%;
-  overflow: ${({ hasCustomBorder }) => (hasCustomBorder ? "initial" : "inherit")};
-  background: ${({ theme, background }) => background ?? theme.card.background};
-  border-radius: ${({ theme }) => theme.radii.card};
-`;
+export const StyledCardInner = styled(Box)<{ background?: string; hasCustomBorder: boolean }>``;
 
 StyledCard.defaultProps = {
   isActive: false,
